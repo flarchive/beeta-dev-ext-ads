@@ -1,0 +1,30 @@
+{
+    "name": "beeta-dev/ext-ads",
+    "description": "Beeta Ads",
+    "keywords": ["ads"],
+    "type": "flarum-extension",
+    "authors": [{
+        "name": "blurkness",
+        "email": "blurkness@gmail.com"
+    }],
+    "require": {
+        "flarum/core": "^0.1.0-beta.4"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Beeta Ads",
+            "icon": {
+                "name": "newspaper-o",
+                "backgroundColor": "#14191F", 
+                "color": "#E7712E"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Beeta\\Ads\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
